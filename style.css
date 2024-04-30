@@ -1757,7 +1757,23 @@ ul {
     html {
         font-size: 60%;
     }
-   
+   .footer-foreground{
+    height: 55vh;
+   }
+   .footer-background{
+    height: 55vh;
+   }
+   .footer-avatar-img{
+    width: 250px !important;
+}
+.left-text{
+    font-size: 140px !important;
+    margin-right: -40px;
+}
+.right-text{
+    font-size: 140px !important;
+    margin-left: -40px;
+}
   }
   @media screen and (max-width:998px) {
     html {
@@ -1969,13 +1985,20 @@ transition-duration: 1s;
     width: 200px !important;
 }
 .footer-foreground{
-    height: 70vh;
+    height: 90vh;
 }
 .footer-background{
-    height: 70vh;
+    height: 90vh;
 }
   }
-  
+  @media screen and (max-width:855px) {
+    .footer-foreground{
+        height: 50vh;
+    }
+    .footer-background{
+        height: 50vh;
+    }
+  } 
   @media screen and (max-width:768px) {
     html {
         font-size: 50%;
@@ -2041,14 +2064,14 @@ transition-duration: 1s;
     margin-left: -40px;
 }
 .footer-foreground{
-    height: 65vh;
+    height: 53vh;
 }
 .footer-background{
-    height: 65vh;
+    height: 52vh;
 }
   }
   
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:540px) {
     html {
         font-size: 45%;
     }
@@ -2120,10 +2143,10 @@ transition-duration: 1s;
         display: none;
     }
     .footer-foreground{
-        height: 70vh;
+        height: 80vh;
     }
     .footer-background{
-        height: 70vh;
+        height: 80vh;
     }
   }
   @media screen and (max-width:430px) {
@@ -2139,9 +2162,15 @@ transition-duration: 1s;
     .two-words article{
         font-size: 2.2rem;
     }
+    .footer-foreground{
+        height: 65vh;
+    }
+    .footer-background{
+        height: 65vh;
+    }
   }
   
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:376px) {
     html {
         font-size: 42%;
     }
@@ -2161,9 +2190,15 @@ transition-duration: 1s;
     .logos{
         gap: 20px;
     }
+    .footer-foreground{
+        height: 85vh;
+    }
+    .footer-background{
+        height: 85vh;
+    }
      /*https://github.com/KauraniDivya */
   }
-  @media screen and (max-width:300px) {
+  @media screen and (max-width:344px) {
     html {
         font-size: 42%;
     }
@@ -2188,6 +2223,12 @@ transition-duration: 1s;
     }
     .logos{
         gap: 20px;
+    }
+    .footer-foreground{
+        height: 60vh;
+    }
+    .footer-background{
+        height: 60vh;
     }
   }
   /* https://github.com/KauraniDivya */
