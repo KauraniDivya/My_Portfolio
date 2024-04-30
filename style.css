@@ -1055,18 +1055,69 @@ noscript{
 }
 .tech-stack-box{
     width: 160px;
-    height: 160px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 5px;
     background-image: linear-gradient(to bottom right,var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
     border: 1px solid var(--tech-stack-box-border-color);
-    /* box-shadow: 0px 10px 20px var(--color-shadowDark); */
+    box-shadow: 0 4px 6px -1px #f97316,0 1px 2px -2px #f97316;
     position: relative;
 }
+.css{
+    box-shadow: 0 4px 6px -1px #3b82f6,0 1px 2px -2px #3b82f6;
+}
+.js{
+    box-shadow: 0 4px 6px -1px #eab308,0 1px 2px -2px #eab308;
+}
+.node{
+    box-shadow: 0 4px 6px -1px #8cc84b,0 1px 2px -2px #8cc84b;
+}
+.react{    
+    box-shadow: 0 4px 6px -1px #00d8ff,0 1px 2px -2px #00d8ff;
+}
+.github{
+    box-shadow: 0 4px 6px -1px #fff,0 1px 2px -2px #fff;
+}
+.git{
+    box-shadow: 0 4px 6px -1px #f05133,0 1px 2px -2px #f05133;
+}
+.c{
+    box-shadow: 0 4px 6px -1px #3949ab,0 1px 2px -2px #3949ab;
+}
+.cpp{
+    box-shadow: 0 4px 6px -1px #00549c,0 1px 2px -2px #00549c;
+}
+.mb{
+    box-shadow: 0 4px 6px -1px #01ec64,0 1px 2px -2px #01ec64;
+}
+.figma{
+    box-shadow: 0 4px 6px -1px #ff7262,0 1px 2px -2px #ff7262;
+}
+.java{
+    box-shadow: 0 4px 6px -1px #f44336,0 1px 2px -2px #f44336;
+}
+.canva{
+    box-shadow: 0 4px 6px -1px #603cec,0 1px 2px -2px #603cec;
+}
+.gpt{
+    box-shadow: 0 4px 6px -1px #16b588,0 1px 2px -2px #16b588;
+}
+.python{
+    box-shadow: 0 4px 6px -1px #ffc107,0 1px 2px -2px #ffc107;
+}
+.tailwind{
+    box-shadow: 0 4px 6px -1px #00a2bf,0 1px 2px -2px #00a2bf;
+}
+.mysql{
+    box-shadow: 0 4px 6px -1px #00796b,0 1px 2px -2px #00796b;
+}
+.sass{
+    box-shadow: 0 4px 6px -1px #f06292,0 1px 2px -2px #f06292;
+}
 .tech-stack-box img{
-    width: 80%;
+    width: 60%;
 }
 .tech-stack-box:hover .tooltip {
     opacity: 1;
