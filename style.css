@@ -1074,6 +1074,12 @@ noscript{
 .node{
     box-shadow: 0 4px 6px -1px #8cc84b,0 1px 2px -2px #8cc84b;
 }
+.next{
+    box-shadow: 0 4px 6px -1px #fff,0 1px 2px -2px #fff;
+}
+.ts{
+    box-shadow: 0 4px 6px -1px #007bcd,0 1px 2px -2px #007bcd;
+}
 .react{    
     box-shadow: 0 4px 6px -1px #00d8ff,0 1px 2px -2px #00d8ff;
 }
@@ -1118,6 +1124,12 @@ noscript{
 }
 .tech-stack-box img{
     width: 60%;
+}
+ .ts img{
+    width: 40%;
+}
+.next img{
+    width: 50%;
 }
 .tech-stack-box:hover .tooltip {
     opacity: 1;
