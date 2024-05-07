@@ -257,7 +257,7 @@ body{
    
 }
 header{
-    min-width: 100%;
+    width: 100%;
     height: 115px;
     display: flex;
     align-items: flex-end;
@@ -310,10 +310,9 @@ noscript{
     position:fixed;
     z-index: 999;
     border: 1px solid var(--color-navbarBorder-dark);
-    min-width: 100%;
-    /* border-radius: 50px; */
+    
+    border-radius: 50px;
     overflow: hidden;
-    top: 0;
 }
 .navbar-tabs{
     display: flex;
@@ -1804,89 +1803,86 @@ ul {
     .stopscrolling{
         overflow: hidden;
     }
-  .hamburger{
-    /* display: block; */
-    position: fixed;
-    top: 0px;
-    /* right: 0; */
-    width: 100vw;
-    height: 115px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    z-index: 9998;
-    background-color:transparent;
-    align-items: center;
-}
-.hamburgerbase{
-    width: 80%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 20px;
-    padding-top: 30px;
-    position: fixed;
-    top: 0;
-}
-#hamburger-button{
-    font-size: 3rem;
-    font-weight: 800;
-    width: 4.5rem;
-    height: 3.5rem;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-#burger-bar1{
-    width: 60%;
-    height:3px;
-    border-radius: 0px;
-    transition-duration: .3s;
-}
-#burger-bar2{
-    width: 100%;
-    height:3px;
-    border-radius: 0px;
-    transition-duration: .3s;
-
-}
-#burger-bar3
-{
-    width: 60%;
-    height:3px;
-    border-radius: 0px;
-    transition-duration: .3s;
-
-}
-.burger-bar{
-    background-color: var(--color-white);
-}
-
-.hamburger-animation1{
-    transform: rotate(45deg) scaleX(1.7);
-    transition-duration: .3s;
-    transform-origin: left;
-    background-color: var(--color-white);
-
-} 
-.hamburger-animation2{
-   transform: scaleX(0);
-    background-color: var(--color-white);
-
+    .hamburger{
+        /* display: block; */
+        position: fixed;
+        top: 0px;
+        /* right: 0; */
+        width: 100vw;
+        height: 115px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        z-index: 9998;
+        background-color:transparent;
     
-}
-.hamburger-animation3{
-    transform: rotateZ(-45deg) scaleX(1.7);
-    transform-origin: left;
-    transition-duration: .3s;
-    background-color: var(--color-white);
-
-
-}
+    }
+    .hamburgerbase{
+        width: 80%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    #hamburger-button{
+        font-size: 3rem;
+        font-weight: 800;
+        width: 4.5rem;
+        height: 3.5rem;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #burger-bar1{
+        width: 60%;
+        height:3px;
+        border-radius: 0px;
+        transition-duration: .3s;
+    }
+    #burger-bar2{
+        width: 100%;
+        height:3px;
+        border-radius: 0px;
+        transition-duration: .3s;
+    
+    }
+    #burger-bar3
+    {
+        width: 60%;
+        height:3px;
+        border-radius: 0px;
+        transition-duration: .3s;
+    
+    }
+    .burger-bar{
+        background-color: var(--color-white);
+    }
+    
+    .hamburger-animation1{
+        transform: rotate(45deg) scaleX(1.7);
+        transition-duration: .3s;
+        transform-origin: left;
+        background-color: var(--color-white);
+    
+    } 
+    .hamburger-animation2{
+       transform: scaleX(0);
+        background-color: var(--color-white);
+    
+        
+    }
+    .hamburger-animation3{
+        transform: rotateZ(-45deg) scaleX(1.7);
+        transform-origin: left;
+        transition-duration: .3s;
+        background-color: var(--color-white);
+    
+    
+    }
 .mobiletogglemenu{
   background-color:transparent;
   z-index: 9990;
