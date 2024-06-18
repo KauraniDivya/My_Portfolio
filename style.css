@@ -1720,6 +1720,9 @@ ul {
 .tonechange{
     color: black;
 }
+.blogbtn{
+    margin-left: 20px;
+}
 
 /* responsive code below*/
 @media screen and (max-width:1920px) {
@@ -2076,6 +2079,9 @@ transition-duration: 1s;
 }
 .footer-background{
     height: 52vh;
+}
+.blogbtn{
+    margin-left: 0px;
 }
   }
   
